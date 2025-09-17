@@ -9,6 +9,7 @@ int main()
 
     printf("Enter Complete Name: ");
     fgets(yourCompleteName, sizeof(yourCompleteName), stdin);
+    
     printf("Enter Section: ");
     fgets(yourStudentSection, sizeof(yourStudentSection), stdin);
 
@@ -24,9 +25,11 @@ int main()
     printf("Section: %s", yourStudentSection);
 
     printf(" Results: ");
+    
     printf("%d + %d = %d\n", myFirstNumber, mySecondNumber, myFirstNumber + mySecondNumber);
     printf("%d - %d = %d\n", myFirstNumber, mySecondNumber, myFirstNumber - mySecondNumber);
     printf("%d * %d = %d\n", myFirstNumber, mySecondNumber, myFirstNumber * mySecondNumber);
     printf("%d / %d = %d\n", myFirstNumber, mySecondNumber, myFirstNumber / mySecondNumber);
     return 0;
+
 }
