@@ -24,7 +24,7 @@ int main()
     printf("Student Name: %s", yourCompleteName);
     printf("Section: %s", yourStudentSection);
 
-    printf(" Results: ");
+    printf(" Results: \n");
     
     printf("%d + %d = %d\n", myFirstNumber, mySecondNumber, myFirstNumber + mySecondNumber);
     printf("%d - %d = %d\n", myFirstNumber, mySecondNumber, myFirstNumber - mySecondNumber);
